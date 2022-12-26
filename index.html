@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+     
+    <!-- Main Menu -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo.png" alt="logo">
+            <h1 class="logo-text">Level</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="level-nav-link nav-link active" aria-current="page" href="#home">Search</a>
+              <a class="level-nav-link nav-link" href="#portfolio">Services</a>
+              <a class="level-nav-link nav-link" href="#plog">Recommends</a>
+              <a class="level-nav-link nav-link" href="#contact">contact</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- search From -->
+    <div class="hero" id="home">
+        <div class="container">
+            <form class="search-form" method="get" action="index.html">
+                <div class="form-group" style="flex:100%;">
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" class="form control" placeholder="Write Your Destination">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input id="check-in" type="text" class="form control" placeholder="Check in">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input id="check-out" type="text" class="form control" placeholder="Check out">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-bed"></i>
+                    <select type="text" class="form control">
+                        <option value="">Rooms</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form control">
+                        <option>Adult</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form control">
+                        <option>Children</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="">Check</button>
+                </div>
+            </form>
+            <p class="need-help"><a href="#">Need Help?</a></p>
+        </div>
+    </div>
+    <!-- Subscribe -->
+    <section class="section-color" id="portfolio">
+        <div class="container">
+            <h2>We Are Here To Help You</h2>
+            <p>subscribe to get Our News</p>
+            <a href="#" class="subscribe">subscribe</a>
+        </div>
+    </section>
+    <!-- Services -->
+    <section class="services">
+        <svg>
+            <polygon  points="0,0 100,0 100,100" style="fill:var(--color-primary);stroke:purple;stroke-width:0" />
+        </svg>
+        <div class="container">
+            <div class="row">
+                <article class="article col-lg-4">
+                    <i class="fa fa-life-saver"></i>
+                    <h3 class="article-title">Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, nihil?</p>
+                    <a href="#" class="">read more</a>
+                </article>
+
+                <article class="article col-lg-4">
+                    <i class="fa fa-legal"></i>
+                    <h3 class="article-title">Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, nihil?</p>
+                    <a href="#" class="">read more</a>
+                </article>
+
+                <article class="article col-lg-4">
+                    <i class="fa fa-plane"></i>
+                    <h3 class="article-title">Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, nihil?</p>
+                    <a href="#" class="">read more</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Slider -->
+    <section class="section-grey" id="plog">
+        <div class="container row row-no">
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="slider">
+                    <div class="slider-item">
+                        <img src="./assets/images/img-01.jpg" alt="g">
+                        <div class="slider-item-content">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Pariatur, cum!
+                            </p>
+                            <a href="#">Veiw Detail</a>                     
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="./assets/images/img-02.jpg" alt="g">
+                        <div class="slider-item-content">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Pariatur, cum!
+                            </p>
+                            <a href="#">Veiw Detail</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="./assets/images/img-01.jpg" alt="g">
+                        <div class="slider-item-content">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Pariatur, cum!
+                            </p>
+                            <a href="#">Veiw Detail</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="./assets/images/img-02.jpg" alt="g">
+                        <div class="slider-item-content">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Pariatur, cum!
+                            </p>
+                            <a href="#">Veiw Detail</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="./assets/images/img-01.jpg" alt="g">
+                        <div class="slider-item-content">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Pariatur, cum!
+                            </p>
+                            <a href="#">Veiw Detail</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="./assets/images/img-01.jpg" alt="g">
+                        <div class="slider-item-content">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Pariatur, cum!
+                            </p>
+                            <a href="#">Veiw Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="recomended">
+                    <div class="recomneded-title">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Harum, laudantium.
+                        </p>
+                    </div>
+                    <div class="recomended-places">
+                        <div class="recomended-palces-item">
+                            <img src="./assets/images/tn-img-01.jpg" alt="fb">
+                            <a href="#5">Asia</a>
+                        </div>
+                        <div class="recomended-palces-item">
+                            <img src="./assets/images/tn-img-02.jpg" alt="fb">
+                            <a href="#5">Europe</a>
+                        </div>
+                        <div class="recomended-palces-item">
+                            <img src="./assets/images/tn-img-03.jpg" alt="fb">
+                            <a href="#5">Africa</a>
+                        </div>
+                        <div class="recomended-palces-item">
+                            <img src="./assets/images/tn-img-04.jpg" alt="fb">
+                            <a href="#87">America</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Vedio -->
+    <section class="video">
+        <div class="video-overlay">
+            <i class="fa fa-play-circle play" onclick="play()"></i>
+            <i class="fa fa-pause-circle pause" onclick="pause()"></i>
+        </div>
+        <div class="video-container container">
+            <video >
+                <source src="./assets/video/1.mp4">
+            </video>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container mx-auto">
+            <h2>Contact</h2>
+            <div class="row ">
+                <div class="col-lg-6 col-md-6">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3450.8393123092696!2d31.406565069700594!3d30.127411223806323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145816e31346a57d%3A0x77351889b5e126eb!2sEgypt%20Old%20Airport!5e0!3m2!1sar!2seg!4v1671606581638!5m2!1sar!2seg" width="100%" height="570" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <form action="" method="post" class="form-container">
+                        <div class="form-group">
+                            <input placeholder="Name" type="text" >
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input placeholder="email" type="text" >
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input placeholder="subscribe" type="text" >
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="comment" rows="5" ></textarea>
+                            <i class="fa fa-commenting"></i>
+                        </div>
+                        <button type="submit">send message now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <span class="scroll-up">Up</span>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <p>Copy Right &COPY; Mohammed Elsayed Design</p>
+        </div>
+    </footer>
+    <script src="/assets/javascript/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="/assets/javascript/slick.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="/assets/javascript/main.js"></script>
+</body>
+</html>
